@@ -34,7 +34,7 @@ monitors:
 
   - id: cloudfloare-dns
     name: Cloudflare DNS
-    url: '1.1.1.1'
+    url: 'https://1.1.1.1'
     method: GET
     expectStatus: 200
     followRedirect: true
@@ -53,42 +53,42 @@ monitors:
     method: GET
     expectstatus: 200
     
-   - id: elastic
+  - id: elastic
     name: Elasticsearch
     description: 'Main elastic endpoint'
     url: 'http://elastic.jumpstartlabs.co:5601'
     method: GET
     expectstatus: 200
     
- - id: noc
+  - id: noc
     name: NOC
     description: 'Check state of GNOC to confirm it is online'
     url: 'http://noc.baxtmann.me'
     method: GET
     expectstatus: 200
  
- - id: jira
+  - id: jira
     name: Jira
     description: 'Our Jira Instance'
     url: 'http://jumpstartlabs.atlassian.net'
     method: GET
     expectstatus: 200
     
- - id: confluence
+  - id: confluence
     name: Confluence
     description: 'Our Confluence Instance'
     url: 'http://jumpstartlabs.atlassian.net'
     method: GET
     expectstatus: 200
  
- - id: zabbix
+  - id: zabbix
     name: Zabbix
     description: 'Zabbix Server - TODO'
     url: 'http://google.com'
     method: GET
     expectstatus: 200
  
- - id: grafana
+  - id: grafana
     name: Grafana
     description: 'Grafana Server - TODO'
     url: 'http://google.com'
