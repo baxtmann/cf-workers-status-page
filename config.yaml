@@ -40,57 +40,57 @@ monitors:
     followRedirect: true
     
   - id: web05
-    name: 'Main Webserver'
+    name: Webserver
     description: 'Main webserver for our static sites!'
     url: 'https://web05.baxtmann.me:2083'
     method: GET
     expectstatus: 200
    
   - id: box
-    name: 'Mailserver'
+    name: Mailserver
     description: 'General mailserver for JSL'
     url: 'https://box.baxtmann.me'
     method: GET
     expectstatus: 200
     
    - id: elastic
-    name: 'Elasticsearch'
+    name: Elasticsearch
     description: 'Main elastic endpoint'
     url: 'http://elastic.jumpstartlabs.co:5601'
     method: GET
     expectstatus: 200
     
  - id: noc
-    name: 'NOC State'
+    name: NOC
     description: 'Check state of GNOC to confirm it is online'
     url: 'http://noc.baxtmann.me'
     method: GET
     expectstatus: 200
  
  - id: jira
-    name: 'Jira'
+    name: Jira
     description: 'Our Jira Instance'
     url: 'http://jumpstartlabs.atlassian.net'
     method: GET
     expectstatus: 200
     
  - id: confluence
-    name: 'Confluence'
+    name: Confluence
     description: 'Our Confluence Instance'
     url: 'http://jumpstartlabs.atlassian.net'
     method: GET
     expectstatus: 200
  
  - id: zabbix
-    name: 'Zabbix - TODO'
-    description: 'Zabbix Server'
+    name: Zabbix
+    description: 'Zabbix Server - TODO'
     url: 'http://google.com'
     method: GET
     expectstatus: 200
  
  - id: grafana
-    name: 'Grafana'
-    description: 'Grafana Server'
+    name: Grafana
+    description: 'Grafana Server - TODO'
     url: 'http://google.com'
     method: GET
     expectstatus: 200
