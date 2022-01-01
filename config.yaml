@@ -31,13 +31,6 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
-
-  - id: cloudfloare-dns
-    name: Cloudflare DNS
-    url: 'https://1.1.1.1/help'
-    method: GET
-    expectStatus: 200
-    followRedirect: true 
     
   - id: web05
     name: Webserver
