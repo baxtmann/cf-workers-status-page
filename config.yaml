@@ -34,7 +34,7 @@ monitors:
 
   - id: cloudfloare-dns
     name: Cloudflare DNS
-    url: 'https://1.1.1.1'
+    url: 'https://1.1.1.1/'
     method: GET
     expectStatus: 200
     followRedirect: true 
@@ -56,14 +56,14 @@ monitors:
   - id: elastic
     name: Elasticsearch
     description: 'Main elastic endpoint'
-    url: 'http://elastic.jumpstartlabs.co:5601'
+    url: 'https://elastic.jumpstartlabs.co'
     method: GET
     expectstatus: 200
     
   - id: noc
     name: NOC
     description: 'Check state of GNOC to confirm it is online'
-    url: 'http://noc.baxtmann.me'
+    url: 'https://noc.baxtmann.me/'
     method: GET
     expectstatus: 200
  
