@@ -84,14 +84,15 @@ monitors:
   - id: zabbix
     name: Zabbix
     description: 'Zabbix Server - TODO'
-    url: 'http://google.com'
+    url: 'https://www.google.com/'
     method: GET
     expectstatus: 200
+    followRedirect: true 
  
   - id: grafana
     name: Grafana
     description: 'Grafana Server - TODO'
-    url: 'http://google.com'
+    url: 'https://www.google.com/'
     method: GET
     expectstatus: 200
     followRedirect: true 
