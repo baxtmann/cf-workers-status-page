@@ -45,28 +45,36 @@ monitors:
     url: 'https://web05.baxtmann.me:2083'
     method: GET
     expectstatus: 200
-   
+    followRedirect: true 
+
+
   - id: box
     name: Mailserver
     description: 'General mailserver for JSL'
     url: 'https://box.baxtmann.me'
     method: GET
     expectstatus: 200
-    
+    followRedirect: true 
+
+
   - id: elastic
     name: Elasticsearch
     description: 'Main elastic endpoint'
     url: 'https://elastic.jumpstartlabs.co'
     method: GET
     expectstatus: 200
-    
+    followRedirect: true 
+
+
   - id: noc
     name: NOC
     description: 'Check state of GNOC to confirm it is online'
     url: 'https://noc.baxtmann.me/'
     method: GET
     expectstatus: 200
- 
+    followRedirect: true 
+
+
   - id: jira
     name: Jira
     description: 'Our Jira Instance'
