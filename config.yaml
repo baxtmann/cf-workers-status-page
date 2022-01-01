@@ -79,7 +79,7 @@ monitors:
     description: 'Our Confluence Instance'
     url: 'https://jumpstartlabs.atlassian.net/'
     method: GET
-    expectstatus: 200
+    expectstatus: 301
     followRedirect: true 
  
   - id: zabbix
