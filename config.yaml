@@ -60,7 +60,7 @@ monitors:
   - id: elastic
     name: Elasticsearch
     description: 'Main elastic endpoint'
-    url: 'https://elastic.jumpstartlabs.co'
+    url: 'https://elastic.jumpstartlabs.co/login?next=%2F'
     method: GET
     expectstatus: 200
     followRedirect: true 
