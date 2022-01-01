@@ -70,9 +70,10 @@ monitors:
   - id: jira
     name: Jira
     description: 'Our Jira Instance'
-    url: 'http://jumpstartlabs.atlassian.net'
+    url: 'https://jumpstartlabs.atlassian.net/'
     method: GET
-    expectstatus: 200
+    expectstatus: 301
+    followRedirect: true 
     
   - id: confluence
     name: Confluence
