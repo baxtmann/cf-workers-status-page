@@ -103,3 +103,21 @@ monitors:
     expectstatus: 200
     followRedirect: true 
     linkable: false 
+
+  - id: mtlingress
+    name: MTL-INGRESS
+    description: 'Montreal Datacenter main point of ingress and egress. Hitting the public endpoint for this responce.'
+    url: 'https://mtl.jumpstartlabs.co/'
+    method: GET
+    expectstatus: 200
+    followRedirect: true 
+    linkable: false 
+    
+  - id: mtlegress
+    name: MTL-EGRESS
+    description: 'Montreal Datacenter main point of ingress and egress. Hitting the public endpoint for this responce.'
+    url: 'https://mtl.jumpstartlabs.co'
+    method: GET
+    expectstatus: 200
+    followRedirect: true 
+    linkable: false 
