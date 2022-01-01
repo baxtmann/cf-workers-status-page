@@ -39,7 +39,7 @@ monitors:
     method: GET
     expectstatus: 200
     followRedirect: true 
-
+    linkable: false 
 
   - id: box
     name: Mailserver
@@ -48,7 +48,7 @@ monitors:
     method: GET
     expectstatus: 200
     followRedirect: true 
-
+    linkable: false 
 
   - id: elastic
     name: Elasticsearch
@@ -57,7 +57,7 @@ monitors:
     method: GET
     expectstatus: 200
     followRedirect: true 
-
+    linkable: false 
 
   - id: noc
     name: NOC
@@ -66,7 +66,7 @@ monitors:
     method: GET
     expectstatus: 200
     followRedirect: true 
-
+    linkable: false 
 
   - id: jira
     name: Jira
@@ -75,7 +75,8 @@ monitors:
     method: GET
     expectstatus: 301
     followRedirect: true 
-    
+    linkable: false 
+        
   - id: confluence
     name: Confluence
     description: 'Our Confluence Instance'
@@ -83,7 +84,8 @@ monitors:
     method: GET
     expectstatus: 301
     followRedirect: true 
- 
+    linkable: false 
+
   - id: zabbix
     name: Zabbix
     description: 'Zabbix Server - TODO'
@@ -91,7 +93,8 @@ monitors:
     method: GET
     expectstatus: 200
     followRedirect: true 
- 
+    linkable: false 
+    
   - id: grafana
     name: Grafana
     description: 'Grafana Server - TODO'
@@ -99,3 +102,4 @@ monitors:
     method: GET
     expectstatus: 200
     followRedirect: true 
+    linkable: false 
