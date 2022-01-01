@@ -21,7 +21,7 @@ monitors:
     url: 'https://workers.cloudflare.com/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
+    followRedirect: false  # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
   - id: www-cloudflare-com
@@ -37,7 +37,7 @@ monitors:
     url: 'https://1.1.1.1'
     method: GET
     expectStatus: 200
-    followRedirect: true
+    followRedirect: true 
     
   - id: web05
     name: Webserver
@@ -94,11 +94,4 @@ monitors:
     url: 'http://google.com'
     method: GET
     expectstatus: 200
-    
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
+    followRedirect: true 
